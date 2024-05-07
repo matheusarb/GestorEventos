@@ -7,15 +7,16 @@ using GestorEventos.Application.Contracts;
 using GestorEventos.Domain;
 using GestorEventos.Persistence;
 using GestorEventos.Persistence.Context;
+using GestorEventos.Persistence.Contracts;
 
 namespace GestorEventos.Application
 {
     public class EventoService : IEventoService
     {
-        private readonly EventoPersist _eventoPersist;
-        private readonly GeralPersist _geralPersist;
+        private readonly IEventoPersist _eventoPersist;
+        private readonly IGeralPersist _geralPersist;
 
-        public EventoService(EventoPersist eventoPersist, GeralPersist geralPersist)
+        public EventoService(IEventoPersist eventoPersist, IGeralPersist geralPersist)
         {
             _eventoPersist = eventoPersist;
             _geralPersist = geralPersist;

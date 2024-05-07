@@ -528,4 +528,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-node_modules
+node_modules/
+/node_modules
+back/src/GestorEventos.Persistence/Migrations/20240507153857_Initial.cs
+back/src/GestorEventos.Persistence/Migrations/20240507153857_Initial.Designer.cs
+back/src/GestorEventos.Persistence/Migrations/GestorEventosContextModelSnapshot.cs
+back/src/GestorEventos.API/GestorEventos.db-shm
+back/src/GestorEventos.API/GestorEventos.db-wal
+front/GestorEventosApp

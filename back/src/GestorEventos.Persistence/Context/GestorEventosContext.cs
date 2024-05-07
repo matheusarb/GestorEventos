@@ -11,7 +11,7 @@ namespace GestorEventos.Persistence.Context
     {
         public GestorEventosContext(DbContextOptions<GestorEventosContext> options)
             : base(options)
-        {            
+        {
         }
 
         public DbSet<Evento> Eventos {get; set;}
