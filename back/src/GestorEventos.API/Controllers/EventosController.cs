@@ -12,16 +12,16 @@ namespace GestorEventos.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class EventoController : Controller
+    public class EventosController : Controller
     {
         private readonly IEventoService _eventoService;
 
-        public EventoController(IEventoService eventoService)
+        public EventosController(IEventoService eventoService)
         {
             _eventoService = eventoService;
         }
 
-        [HttpGet("/eventos")]
+        [HttpGet]
         public async Task<IActionResult> GetAllEventos()
         {
             try
