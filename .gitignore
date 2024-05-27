@@ -536,3 +536,6 @@ back/src/GestorEventos.Persistence/Migrations/GestorEventosContextModelSnapshot.
 back/src/GestorEventos.API/GestorEventos.db-shm
 back/src/GestorEventos.API/GestorEventos.db-wal
 front/GestorEventosApp
+
+front/GestorEventosApp/src/assets
+back/src/GestorEventos.API/GestorEventos.db
